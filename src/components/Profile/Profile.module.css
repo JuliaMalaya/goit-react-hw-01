@@ -1,13 +1,13 @@
-.mainWrapper {
+.profile {
     max-width: 300px;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 6px;
     overflow: hidden;
     margin: 0 auto 40px;
 }
 
-.infoWrapper {
+.description {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@
     padding: 12px;
 }
 
-.imgWrapper {
+.imgContainer {
     background-color: #242424;
     width: 150px;
     height: 150px;
@@ -24,23 +24,23 @@
     overflow: hidden;
 }
 
-.userInfo {
-    color: #888888;
+.tag,
+.location {
+    color: #6e6c6c;
 }
 
-.statsList {
+.listStatistics {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #bdbdbd;
+    background-color: #d1cccc;
 }
 
-.statsListItem {
+.listStatItem {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #888888;
-    border-collapse: collapse;
+    border: 1px solid #9e9c9c;
     flex-basis: calc(100% / 3);
 }
